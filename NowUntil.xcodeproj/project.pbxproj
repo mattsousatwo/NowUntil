@@ -55,11 +55,9 @@
 		60BFFAC52745D46E001D564F /* NowUntil */ = {
 			isa = PBXGroup;
 			children = (
-				60BFFAC62745D46E001D564F /* NowUntilApp.swift */,
 				60BFFAC82745D46E001D564F /* ContentView.swift */,
-				60BFFACA2745D46F001D564F /* Assets.xcassets */,
-				60BFFACF2745D46F001D564F /* Persistence.swift */,
-				60BFFAD12745D46F001D564F /* NowUntil.xcdatamodeld */,
+				60BFFADA2745D570001D564F /* CoreData */,
+				60BFFAD92745D543001D564F /* Main Assets */,
 				60BFFACC2745D46F001D564F /* Preview Content */,
 			);
 			path = NowUntil;
@@ -71,6 +69,24 @@
 				60BFFACD2745D46F001D564F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		60BFFAD92745D543001D564F /* Main Assets */ = {
+			isa = PBXGroup;
+			children = (
+				60BFFACA2745D46F001D564F /* Assets.xcassets */,
+				60BFFAC62745D46E001D564F /* NowUntilApp.swift */,
+				60BFFACF2745D46F001D564F /* Persistence.swift */,
+			);
+			path = "Main Assets";
+			sourceTree = "<group>";
+		};
+		60BFFADA2745D570001D564F /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				60BFFAD12745D46F001D564F /* NowUntil.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
