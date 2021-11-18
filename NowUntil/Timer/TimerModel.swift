@@ -9,4 +9,29 @@ import Foundation
 
 struct TimerModel {
     
+    
+    
+    
+    
+}
+
+// Button Functionality
+extension TimerModel {
+    
+    /// Start timer
+    func startButtonWasPressed() {
+        
+    }
+    
+    /// Pause timer
+    func pauseButtonWasPressed() {
+        
+    }
+    
+    /// Stop timer
+    func stopButtonWasPressed() {
+        
+    }
+    
+    
 }

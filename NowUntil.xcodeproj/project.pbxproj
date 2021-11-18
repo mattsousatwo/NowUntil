@@ -16,6 +16,8 @@
 		60BFFADC2745F884001D564F /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BFFADB2745F884001D564F /* TimerView.swift */; };
 		60BFFADF27460DC7001D564F /* TimerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BFFADE27460DC7001D564F /* TimerState.swift */; };
 		60BFFAE127460DD2001D564F /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BFFAE027460DD2001D564F /* TimerModel.swift */; };
+		60BFFAE327461D5D001D564F /* TimerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BFFAE227461D5D001D564F /* TimerButton.swift */; };
+		60BFFAE527461D8F001D564F /* TimerButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BFFAE427461D8F001D564F /* TimerButtonType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		60BFFADB2745F884001D564F /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		60BFFADE27460DC7001D564F /* TimerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerState.swift; sourceTree = "<group>"; };
 		60BFFAE027460DD2001D564F /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
+		60BFFAE227461D5D001D564F /* TimerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerButton.swift; sourceTree = "<group>"; };
+		60BFFAE427461D8F001D564F /* TimerButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerButtonType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				60BFFADB2745F884001D564F /* TimerView.swift */,
 				60BFFADE27460DC7001D564F /* TimerState.swift */,
 				60BFFAE027460DD2001D564F /* TimerModel.swift */,
+				60BFFAE227461D5D001D564F /* TimerButton.swift */,
+				60BFFAE427461D8F001D564F /* TimerButtonType.swift */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
@@ -177,8 +183,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				60BFFADC2745F884001D564F /* TimerView.swift in Sources */,
+				60BFFAE327461D5D001D564F /* TimerButton.swift in Sources */,
 				60BFFADF27460DC7001D564F /* TimerState.swift in Sources */,
 				60BFFAD02745D46F001D564F /* Persistence.swift in Sources */,
+				60BFFAE527461D8F001D564F /* TimerButtonType.swift in Sources */,
 				60BFFAD32745D46F001D564F /* NowUntil.xcdatamodeld in Sources */,
 				60BFFAE127460DD2001D564F /* TimerModel.swift in Sources */,
 				60BFFAC92745D46E001D564F /* ContentView.swift in Sources */,
